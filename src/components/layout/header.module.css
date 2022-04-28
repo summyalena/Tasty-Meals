@@ -1,0 +1,18 @@
+.main-image {
+    width: 104%;
+    height: 25rem;
+    z-index: 0;
+    overflow:hidden;
+    
+  }
+  
+  .main-image img {
+    width: 105%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  }
+
+  @media only screen and (max-width: 600px){
+    
+  }
